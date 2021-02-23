@@ -15,12 +15,7 @@ class Config:
 			return False
 
 	def banner(self):
-		return '''\n
-\033[0;96m   __  ___     ____  _   ___  ____
-\033[0;96m  /  |/  /_ __/ / /_(_) / _ )/ __/  \033[0m|| Created By DulLah
-\033[0;96m / /|_/ / // / / __/ / / _  / _/    \033[0m|| Github.com/dz-id
-\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/ \033[0;91mv2.0 \033[0m|| FB.me/dulahz'''
-
+		return '\033[0;96m 4Crack-FB \033[0m by RejectorYou(4thuy)'
 	def httpRequest(self, url, cookies):
 		try:
 			return requests.get(url, cookies = {'cookie': cookies}).text

