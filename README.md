@@ -7,7 +7,6 @@ cookies method with python2 version
 ```
 [wajib clone dulu sebelum instalasi karena saya sudah menyiapkan instalasi otomatis]
 
-cd 4Crack-FB
 bash Install.sh
 
 ```
