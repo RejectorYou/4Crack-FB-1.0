@@ -1,15 +1,6 @@
 #!usr/bin/python2.7
 # coding=utf-8
 
-#######################################################
-# Name           : Multi BF (MBF) <cookie method>     #
-# File           : friends_list.py                    #
-# Author         : DulLah                             #
-# Github         : https://github.com/dz-id           #
-# Facebook       : https://www.facebook.com/dulahz    #
-# Telegram       : https://t.me/unikers               #
-# Python version : 2.7                                #
-#######################################################
 
 import os, re, sys, json
 from bs4 import BeautifulSoup as parser

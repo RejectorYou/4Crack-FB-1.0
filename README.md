@@ -5,13 +5,15 @@ cookies method with python2 version
 
 ## Installation
 ```
-pkg install python2
-pip2 install requests bs4
+[wajib clone dulu sebelum instalasi karena saya sudah menyiapkan instalasi otomatis]
+
+cd 4Crack-FB
+bash Install.sh
+
 ```
 
 ## Run script
 ```
-cd mbf
 python2 run.py
 ```
 
