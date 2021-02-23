@@ -7,7 +7,7 @@ cookies method with python2 version
 ```
 [wajib clone dulu sebelum instalasi karena saya sudah menyiapkan instalasi otomatis]
 
-bash Install.sh
+bash install.sh
 
 ```
 
