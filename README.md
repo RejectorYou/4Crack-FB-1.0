@@ -1,7 +1,7 @@
-# 4Crack-FB
+# 4Crack-FB 1.0
 
 cookies method with python2 version
-![4Crack-FB]
+![4Crack-FB 1.0]
 
 ## Installation
 ```

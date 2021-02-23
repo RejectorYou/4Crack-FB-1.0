@@ -15,7 +15,7 @@ class Config:
 			return False
 
 	def banner(self):
-		return '\033[0;96m 4Crack-FB \033[0m by RejectorYou(4thuy)'
+		return '\033[0;96m 4Crack-FB 1.0 \033[0m by RejectorYou(4thuy)'
 	def httpRequest(self, url, cookies):
 		try:
 			return requests.get(url, cookies = {'cookie': cookies}).text
