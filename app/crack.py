@@ -54,7 +54,7 @@ class Brute:
 						break
 				except: pass
 				sys.stdout.write(
-					'\r[\033[0;96m{}\033[0m] Cracking {}/{} OK:-{} CP:-{} '.format(datetime.now().strftime('%H:%M:%S'), self.loop, len(self.target), len(self.ok), len(self.cp))
+					'\r[\033[0;96m{}\033[0m] Cracking {}/{} OK:{} CP:{} '.format(datetime.now().strftime('%H:%M:%S'), self.loop, len(self.target), len(self.ok), len(self.cp))
 				); sys.stdout.flush()
 		else:
 			self.loop +=1
@@ -66,7 +66,7 @@ class Brute:
 						break
 				except: pass
 				sys.stdout.write(
-					'\r[\033[0;96m{}\033[0m] Cracking {}/{} OK:-{} CP:-{} '.format(datetime.now().strftime('%H:%M:%S'), self.loop, len(self.target), len(self.ok), len(self.cp))
+					'\r[\033[0;96m{}\033[0m] Cracking {}/{} OK:{} CP:{} '.format(datetime.now().strftime('%H:%M:%S'), self.loop, len(self.target), len(self.ok), len(self.cp))
 				); sys.stdout.flush()
 
 	def main(self):
@@ -88,42 +88,88 @@ class Brute:
 						obj[0]+'12345', obj[0]+'123456',
       obj[0]+'1234567', obj[0]+'12345678',
       obj[0]+'123456789',
+      obj[0]+'ganteng123', obj[0]+'ganteng1234', 
+      obj[0]+'ganteng12345',
+      obj[0]+'cantik123', obj[0]+'cantik1234',
+      obj[0]+'cantik12345',
 					]
 				elif len(obj) == 2:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
       obj[0]+'123456', obj[0]+'1234567',
       obj[0]+'12345678', obj[0]+'123456789',
+      obj[0]+'ganteng123', obj[0]+'ganteng1234', 
+      obj[0]+'ganteng12345',
+      obj[0]+'cantik123', obj[0]+'cantik1234',
+      obj[0]+'cantik12345',
 						obj[1]+'123', obj[1]+'12345',
       obj[1]+'123456', obj[1]+'1234567',
       obj[1]+'12345678', obj[1]+'123456789',
+      obj[1]+'ganteng123', obj[1]+'ganteng1234',
+      obj[1]+'ganteng123', obj[1]+'ganteng1234', 
+      obj[1]+'ganteng12345',
+      obj[1]+'cantik123', obj[1]+'cantik1234',
+      obj[1]+'cantik12345',
 					]
 				elif len(obj) == 3:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
       obj[0]+'123456', obj[0]+'1234567',
       obj[0]+'12345678', obj[0]+'123456789',
+      obj[0]+'ganteng123', obj[0]+'ganteng1234', 
+      obj[0]+'ganteng12345',
+      obj[0]+'cantik123', obj[0]+'cantik1234',
+      obj[0]+'cantik12345',
 						obj[1]+'123', obj[1]+'12345',
       obj[1]+'123456', obj[1]+'1234567',
       obj[1]+'12345678', obj[1]+'123456789',
+      obj[1]+'ganteng123', obj[1]+'ganteng1234',
+      obj[1]+'ganteng123', obj[1]+'ganteng1234', 
+      obj[1]+'ganteng12345',
+      obj[1]+'cantik123', obj[1]+'cantik1234',
+      obj[1]+'cantik12345',
 						obj[2]+'123', obj[2]+'12345',
       obj[2]+'123456', obj[2]+'1234567',
       obj[2]+'12345678', obj[2]+'123456789',
+      obj[2]+'ganteng123', obj[2]+'ganteng1234',
+      obj[2]+'ganteng123', obj[2]+'ganteng1234', 
+      obj[2]+'ganteng12345',
+      obj[2]+'cantik123', obj[2]+'cantik1234',
+      obj[2]+'cantik12345',
 					]
 				elif len(obj) == 4:
 					listpass = [
 						obj[0]+'123', obj[0]+'12345',
       obj[0]+'123456', obj[0]+'1234567',
       obj[0]+'12345678', obj[0]+'123456789',
+      obj[0]+'ganteng123', obj[0]+'ganteng1234', 
+      obj[0]+'ganteng12345',
+      obj[0]+'cantik123', obj[0]+'cantik1234',
+      obj[0]+'cantik12345',
 						obj[1]+'123', obj[1]+'12345',
       obj[1]+'123456', obj[1]+'1234567',
       obj[1]+'12345678', obj[1]+'123456789',
+      obj[1]+'ganteng123', obj[1]+'ganteng1234',
+      obj[1]+'ganteng123', obj[1]+'ganteng1234', 
+      obj[1]+'ganteng12345',
+      obj[1]+'cantik123', obj[1]+'cantik1234',
+      obj[1]+'cantik12345',
 						obj[2]+'123', obj[2]+'12345',
       obj[2]+'123456', obj[2]+'1234567',
       obj[2]+'12345678', obj[2]+'123456789',
+      obj[2]+'ganteng123', obj[2]+'ganteng1234',
+      obj[2]+'ganteng123', obj[2]+'ganteng1234', 
+      obj[2]+'ganteng12345',
+      obj[2]+'cantik123', obj[2]+'cantik1234',
+      obj[2]+'cantik12345',
 						obj[3]+'123', obj[3]+'12345',
       obj[3]+'123456', obj[3]+'1234567',
       obj[3]+'12345678', obj[3]+'123456789',
+      obj[3]+'ganteng123', obj[3]+'ganteng1234',
+      obj[3]+'ganteng123', obj[3]+'ganteng1234', 
+      obj[3]+'ganteng12345',
+      obj[3]+'cantik123', obj[3]+'cantik1234',
+      obj[3]+'cantik12345',
 					]
 				else:
 					listpass = [
