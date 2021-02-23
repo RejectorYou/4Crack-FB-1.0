@@ -1,7 +1,7 @@
-# Multi Brute Force
+# 4Crack-FB
 
 cookies method with python2 version
-![MBF](https://github.com/dz-id/mbf/blob/master/screenshot/mbf.jpg)
+![4Crack-FB]
 
 ## Installation
 ```
@@ -16,5 +16,5 @@ python2 run.py
 ```
 
 ## Contact
-[Facebook](https://www.facebook.com/dulahz)
-[Telegram](https://t.me/unikers)
+[Facebook](https://www.facebook.com/fathur.246)
+[Instagram](https://www.instagram.com/fathur.246)
