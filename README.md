@@ -5,15 +5,18 @@ cookies method with python2 version
 
 ## Installation
 ```
-[wajib clone dulu sebelum instalasi karena saya sudah menyiapkan instalasi otomatis]
-
+pkg install bash
+git clone https://github.com/RejectorYou/4Crack-FB-1.0
+cd 4Crack-FB-1.0
 bash install.sh
-
 ```
-
 ## Run script
 ```
 python2 run.py
+```
+## Change Level and Speed Crack
+```
+bash change.sh
 ```
 
 ## Contact

